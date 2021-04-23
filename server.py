@@ -2,6 +2,7 @@ import socket
 import os
 from _thread import *
 
+print('hello')
 ServerSocket = socket.socket()
 host = '127.0.0.1'
 port = 2004
